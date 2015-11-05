@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?import javafx.scene.text.* ?>
+<?import javafx.scene.control.* ?>
+<?import javafx.scene.layout.* ?>
+<?import java.net.* ?>
+
+<BorderPane
+  xmlns="http://javafx.com/javafx/8"
+  xmlns:fx="http://javafx.com/fxml/1"
+  fx:controller="ClickAppJava.ClickAppJavaController">
+  <stylesheets>
+    <URL value="@ClickAppJava.css" />
+  </stylesheets>
+  <top>
+    <Label fx:id="counter" text="" />
+  </top>
+  <bottom>
+    <Button fx:id="countup" text="押す" />
+  </bottom>
+</BorderPane>

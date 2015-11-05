@@ -1,0 +1,4 @@
+*.exe
+*.log
+*.class
+clickAppGroovy/*

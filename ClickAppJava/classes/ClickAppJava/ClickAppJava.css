@@ -1,0 +1,10 @@
+#counter {
+  -fx-font-family: 'Meiryo UI';
+  -fx-font-size: 40pt;
+  -fx-margin: 16pt;
+}
+#countup {
+  -fx-font-family: 'Meiryo UI';
+  -fx-font-size: 32pt;
+  -fx-margin: 16pt;
+}

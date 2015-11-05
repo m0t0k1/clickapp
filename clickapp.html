@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>クリックするだけのアプリ</title>
+</head>
+<body>
+  <h1 id="field"></h1>
+  <button id="countup">押す</button>
+</body>
+<script>
+  function countupByClick(){
+    var counter = document.getElementById('field');
+    counter.innerHTML = counter.innerHTML * 1 + 1;
+  }
+  var countup = document.getElementById("countup");
+  if(countup.addEventListener){
+    countup.addEventListener('click', countupByClick);
+  }else if(countup.attachEvent){
+    countup.attachEvent('onclick', countupByClick);
+  }else{
+    concole.log("uuuu...");
+  }
+</script>
+</html>
