@@ -18,9 +18,9 @@
 |PowerShell|clickapp.ps1|PowerShell3.0以上|
 |Java|ClickAppJava|Java8, JavaFXへクラスパスを通す|
 |Groovy|ClickAppGroovy.md|gvm、Java8|
-|Python||Python3, PyQt5|
+|Python|clickapp.py|Python3, PyQt5|
 
-#### 補足：C#
+#### 補足：C\#
 
 ビルドが必要なので、C#コンパイラがあるところへパスを通してください。
 

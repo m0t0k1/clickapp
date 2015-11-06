@@ -40,4 +40,4 @@ gradle test
 gradle run
 ```
 
-![clickAppGroovy](http://github.com/m0t0k1/clickapp/blob/master/clickapp.png)
+![clickAppGroovy](https://github.com/m0t0k1/clickapp/blob/master/clickapp.png)
