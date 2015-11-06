@@ -22,7 +22,7 @@ class ClickApp(QWidget):
 
     def initUi(self):
         self.counter = QLabel('', self)
-        self.counter.setGeometry(16,16,160,96)
+        self.counter.setGeometry(16,16,160,36)
         self.countup = QPushButton(u'押す', self)
         self.countup.move(16, 60)
         self.countup.clicked.connect(self.doCountup)
